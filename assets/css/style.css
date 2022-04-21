@@ -41,6 +41,12 @@ ul, ol {
     text-align: center;
 }
 
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 /* container */
 
 .container {
@@ -102,6 +108,11 @@ ul, ol {
     height: 350px;
     background: #000 url("../images/blog-bg.jpg")no-repeat center/cover;
 
+}
+
+.intro--text {
+    height: 350px;
+    background: #000 url("../images/text-bg.jpg")no-repeat center/cover;
 }
 
 .into__innner {
@@ -329,6 +340,10 @@ ul, ol {
 
 .section--grey {
     background-color: #f1f1f1;
+}
+
+.section--last {
+    margin-bottom: 60px;
 }
 
 .section__title {
@@ -773,7 +788,7 @@ ul, ol {
     background-repeat: no-repeat;
     background-position: left -20px bottom -120px, right -20px bottom -120px;
     text-align: center;
-    margin-top: 60px;
+    margin-top: auto;
 }
 
 .footer__contacts {
@@ -935,4 +950,49 @@ nav a:hover {
 
 .main__col {
     width: 50%;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 850px;
+    margin-bottom: 50px;
+}
+
+.text p {
+    margin-bottom: 20px;
+}
+
+.text h2,
+.text h3,
+.text h4,
+.text h5,
+.text h6 {
+    color: #2c2c2c;
+    margin-bottom: 20px;
+}
+
+.text ul, ol {
+    margin-bottom: 20px;
+}
+
+.text ol {
+    list-style: decimal;
+    list-style-position: inside;
+}
+
+.text hr {
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 40px 0;
+
+    border: 0;
+    background-color: #d1d1d1;
+}
+
+.text img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
